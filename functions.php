@@ -1,28 +1,26 @@
 <?php
-// Funções do Tema Redetex
+// Funções do Tema
 
-// Função que chama o menu principal
-function add_menu_principal() {
-  $menuPrincipal = array(
+// Função que chama um menu
+function adicionarMenu($menu) {
+  return wp_nav_menu(array(
     'theme_location'  => '',
-    'menu'            => 'Menu Principal',
+    'menu'            => $menu,
     'container'       => '',
     'container_class' => '',
     'container_id'    => '',
     'menu_class'      => '',
     'menu_id'         => '',
     'echo'            => true,
-    'fallback_cb'     => 'wp_page_menu',
+    'fallback_cb'     => '',
     'before'          => '',
     'after'           => '',
     'link_before'     => '',
     'link_after'      => '',
-    'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
+    'items_wrap'      => '<ul class="teste">%3$s</ul>',
     'depth'           => 0,
     'walker'          => ''
-  );
-
-  return wp_nav_menu($menuPrincipal);
+  ));
 }
 
 // Mudar logo e link do Wp-admin

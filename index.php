@@ -2,54 +2,40 @@
 
 <body>
 
-  <section id="intro" class="clearfix">
-    <div class="container d-flex h-100">
+  <main>
 
-      <div class="row justify-content-center align-self-center">
-        <div class="col-md-6 col-sm-6 intro-info order-md-first order-last">
-          <h2><span>Soluções</span> <span>em</span><br><span>Redes</span> <span>de</span> <span>Proteção</span> <span>e</span> <span>Ambientações</span></h2>
-          <div>
-            <a href="<?php get_permalink(); ?>/redetex/contato" class="btn-get-started scrollto">Solicite seu Orçamento Grátis!</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <main id="main">
-    <section id="about">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-5 col-md-6">
-            <div class="about-img">
-              <img src="<?php bloginfo('template_url'); ?>/dist/imagens/redetex.jpg" alt="">
+    <section class="bricktops-slider">
+      <div class="row">
+        <div id="bricktops-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#bricktops-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bricktops-carousel" data-slide-to="1"></li>
+            <li data-target="#bricktops-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/dist/imagens/slider/foto-slider-1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/dist/imagens/slider/foto-slider-2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/dist/imagens/slider/foto-slider-3.png" alt="Third slide">
             </div>
           </div>
-
-          <div class="col-lg-7 col-md-6">
-            <div class="about-content">
-              <h2>Conheça nossa Empresa</h2>
-              <h3>Desde 1999</h3>
-              <p> 
-								A Redetex Ambientações completa quase duas decadas de serviços de qualidade e eficiência. 
-								Com seu escritório principal na cidade de João Pessoa, a REDETEX atua também
-								nas cidades de Campina Grande, Cabedelo, Bayeux, Areia, Recife, Natal, etc. 
-							</p>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Orçamento grátis e sem compromisso.</li>
-                <li><i class="ion-android-checkmark-circle"></i> Agilidade, Qualidade e Eficiência.</li>
-              </ul>
-            </div>
-					</div>
-					
+          <a class="carousel-control-prev" href="#bricktops-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#bricktops-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </section>
 
-    <section id="why-us" class="wow fadeIn hidden-xs">
-
+    <section class="bricktops-icones">
       <div class="container">
         <div class="row counters">
 
@@ -78,7 +64,7 @@
       </div>
     </section>
 
-    <section id="call-to-action" class="wow fadeInUp">
+    <section class="bricktops-principais-cafes">
       <div class="container">
 
         <div class="row">
@@ -94,7 +80,7 @@
       </div>
     </section>
 
-    <section id="pricing" class="wow fadeInUp section-bg">
+    <section class="bricktops-cafes-especiais">
 
       <header class="section-header">
         <h3>Produtos</h3>
@@ -213,6 +199,38 @@
         </div>
       </div>
 
+    </section>
+
+    <section class="bricktops-notas-sensoriais">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Solicite um Orçamento sem Compromisso!</h3>
+            <p class="cta-text"> Preencha nosso formulário e solicite um orçamento para que um de nossos vendedores possa atender você!</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="<?php get_permalink(); ?>/redetex/contato">Solicitar Orçamento!</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bricktops-guia-metodos">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Solicite um Orçamento sem Compromisso!</h3>
+            <p class="cta-text"> Preencha nosso formulário e solicite um orçamento para que um de nossos vendedores possa atender você!</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="<?php get_permalink(); ?>/redetex/contato">Solicitar Orçamento!</a>
+          </div>
+        </div>
+
+      </div>
     </section>
   </main>
 

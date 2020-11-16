@@ -1,4 +1,4 @@
-    <footer id="footer" class="section-bg">
+    <footer id="footer" class="bricktops-header">
       <div class="container">
         <div class="row">
 
@@ -35,6 +35,7 @@
 		<script src="<?php bloginfo('template_url');?>/dist/lib/jquery/jquery.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/dist/lib/jquery/jquery-migrate.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/dist/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/dist/lib/bootstrap/js/bootstrap.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/dist/lib/easing/easing.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/dist/lib/mobile-nav/mobile-nav.js"></script>
 		<script src="<?php bloginfo('template_url');?>/dist/lib/wow/wow.min.js"></script>
