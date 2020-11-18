@@ -37,28 +37,26 @@
 
     <section class="bricktops-icones">
       <div class="container">
-        <div class="row counters">
+        <div class="row">
 
-          <div class="col-lg-3 col-xs-6 text-center">
-            <span data-toggle="counter-up">274</span>
-            <p>Clientes</p>
+          <div class="col-md-4 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/icones/bsca-roastery.icon.png">
+            <h4 class="bricktops-h4">BSCA Roastery Member</h4>
+            <p>Qualidade e consistência</p>
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center">
-            <span data-toggle="counter-up">421</span>
-            <p>Projetos</p>
+          <div class="col-md-4 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/icones/sustentabilidade.icon.png">
+            <h4 class="bricktops-h4">Sustentabilidade</h4>
+            <p>Origem, dignidade e transparência</p>
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center">
-            <span data-toggle="counter-up">1,364</span>
-            <p>Suporte</p>
+          <div class="col-md-4 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/icones/experiencia.icon.png">
+            <h4 class="bricktops-h4">Experiência</h4>
+            <p>Em cada xícara uma nova experiência</p>
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Funcionarios</p>
-          </div>
-  
         </div>
 
       </div>

@@ -5,7 +5,7 @@
 }
 
 .bricktops-icones {
-
+  padding-top: 3%
 }
 
 .bricktops-principais-cafes {
@@ -39,4 +39,8 @@
   padding: 0;
   margin: 1% 0;
   max-height: 65px;
+}
+
+.bricktops-h4 {
+  margin: 0px !important;
 }
