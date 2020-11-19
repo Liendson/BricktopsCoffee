@@ -63,138 +63,110 @@
     </section>
 
     <section class="bricktops-principais-cafes">
-      <div class="container">
 
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Solicite um Orçamento sem Compromisso!</h3>
-            <p class="cta-text"> Preencha nosso formulário e solicite um orçamento para que um de nossos vendedores possa atender você!</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?php get_permalink(); ?>/redetex/contato">Solicitar Orçamento!</a>
-          </div>
-        </div>
-
+      <div class="col-md-12 text-center principais-escolhas">
+        <h4>Nossas principais escolhas!</h4>
       </div>
-    </section>
 
-    <section class="bricktops-cafes-especiais">
-
-      <header class="section-header">
-        <h3>Produtos</h3>
-      </header>
-      
       <div class="conteudo">
         <div class="container">
           <div class="box row">
 
-            <div class="col-md-3">
+            <div class="col-md-4 pm-10">
               <div class="card">
                 <div class="face face1">
-                  <div class="content">
-                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/rede-de-protecao.png">
+                  <div class="content text-center">
+                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/nina.png">
+                    <h5>Espresso</h5>
+                    <h3>Café Nina</h3>
+                    <h6>Moído • Espresso</h6>
+                    <p>R$24.25</p>
+                    <br>
                   </div>
                 </div>
                 <div class="face face2">
                   <div class="content">
-                    <h4>Redes de Proteção</h4>
-                    <p>Ideal para proteção, produto derivado do polietileno virgem, testado e tratado em laboratório para resistir ao clima.</p>
-                    <a href="<?php get_permalink(); ?>/redetex/servicos/redes-de-protecao" class="btn">Veja as fotos</a>
+                    <a href="">
+                      <h4>Comprar</h4>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4 pm-10">
               <div class="card">
                 <div class="face face1">
-                  <div class="content">
-                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/cortinas.jpg">
+                  <div class="content text-center">
+                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/ladyday.png">
+                    <h5>Espresso</h5>
+                    <h3>Café LadyDay</h3>
+                    <h6>Moído • Espresso</h6>
+                    <p>R$25.00</p>
+                    <br>
                   </div>
                 </div>
                 <div class="face face2">
                   <div class="content">
-                    <h4>Persianas e Cortinas</h4>
-                    <p>Lindas cortinas e persianas, que oferecem grande conforto e privacidade, além de sua decoração.</p>
-                    <a href="<?php get_permalink(); ?>/redetex/servicos/persianas-e-cortinas" class="btn">Veja as fotos</a>
+                    <a href="">
+                      <h4>Comprar</h4>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4 pm-10">
               <div class="card">
                 <div class="face face1">
-                  <div class="content">
-                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/tela-mosquiteira.jpg">
+                  <div class="content text-center">
+                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/maestro.png">
+                    <h5>Espresso</h5>
+                    <h3>Café Maestro</h3>
+                    <h6>Espresso • Moído</h6>
+                    <p>R$29.00</p>
+                    <br>
                   </div>
                 </div>
                 <div class="face face2">
                   <div class="content">
-                    <h4>Tela Mosquiteira</h4>
-                    <p>Permite total visibilidade e circulação de ar, fácil de limpar e não cria mofo, adaptável a vários modelos de ambientes</p>
-                    <a href="<?php get_permalink(); ?>/redetex/servicos/tela-mosquiteira" class="btn">Veja as fotos</a>
+                    <a href="">
+                      <h4>Comprar</h4>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
-          <div class="box row">
 
-            <div class="col-md-3">
-              <div class="card">
-                <div class="face face1">
-                  <div class="content">
-                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/varal.jpg">
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content">
-                    <h4>Varais</h4>
-                    <p>Instalação e manutenção de varal suspenso para apartamentos e casas.</p>
-                    <a href="<?php get_permalink(); ?>/redetex/servicos/redes-de-protecao" class="btn">Veja as fotos</a>
-                  </div>
-                </div>
-              </div>
+          <div class="row">
+            <div class="col-md-12 text-center principais-escolhas">
+              <button class="btn btn-danger">Ver todos os cafés</button>
             </div>
-
-            <div class="col-md-3">
-              <div class="card">
-                <div class="face face1">
-                  <div class="content">
-                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/pelicula.jpg">
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content">
-                    <h4>Películas Fumê</h4>
-                    <p>Películas que proporcionam segurança e privacidade à sua casa, testadas e aprovadas por nossos clientes.</p>
-                    <a href="<?php get_permalink(); ?>/redetex/servicos/persianas-e-cortinas" class="btn">Veja as fotos</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="card">
-                <div class="face face1">
-                  <div class="content">
-                    <img src="<?php bloginfo('template_url'); ?>/dist/imagens/box-e-espelhos.jpg">
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content">
-                    <h4>Box e Espelhos</h4>
-                    <p>É ideal a escolha do box para banheiro, uma vez que também tem função estética na residência.</p>
-                    <a href="<?php get_permalink(); ?>/redetex/servicos/tela-mosquiteira" class="btn">Veja as fotos</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
+
         </div>
+      </div>
+
+    </section>
+
+    <section class="bricktops-cafes-especiais">
+
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-6 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/cafes-especiais/bebop.jpg">
+            <h4 class="bricktops-h4">Assine Agora</h4>
+          </div>
+
+          <div class="col-md-6 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/cafes-especiais/allcoffes.jpg">
+            <h4 class="bricktops-h4">Conheça nossos tipos de assinaturas</h4>
+          </div>
+
+        </div>
+
       </div>
 
     </section>
