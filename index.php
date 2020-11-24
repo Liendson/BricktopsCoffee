@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <body>
-
   <main>
 
     <section class="bricktops-slider">
+
       <div class="row">
         <div id="bricktops-carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -33,9 +33,11 @@
           </a>
         </div>
       </div>
+
     </section>
 
-    <section class="bricktops-icones">
+    <section class="bricktops-icones" style="padding-top: 3%">
+
       <div class="container">
         <div class="row">
 
@@ -58,8 +60,8 @@
           </div>
 
         </div>
-
       </div>
+
     </section>
 
     <section class="bricktops-principais-cafes">
@@ -152,56 +154,96 @@
 
     <section class="bricktops-cafes-especiais">
 
-      <div class="container-fluid">
+      <div class="container-fluid" style="width: 95% !important">
         <div class="row">
 
           <div class="col-md-6 text-center">
-            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/cafes-especiais/bebop.jpg">
-            <h4 class="bricktops-h4">Assine Agora</h4>
+            <img class="bricktops-principais-escolhas-img" src="<?php bloginfo('template_url'); ?>/dist/imagens/cafes-especiais/teste1.png">
+            <h3 class="bricktops-h4">Assine Agora</h3>
           </div>
 
           <div class="col-md-6 text-center">
-            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/cafes-especiais/allcoffes.jpg">
-            <h4 class="bricktops-h4">Conheça nossos tipos de assinaturas</h4>
+            <img class="bricktops-principais-escolhas-img" src="<?php bloginfo('template_url'); ?>/dist/imagens/cafes-especiais/teste2.png">
+            <h3 class="bricktops-h4">Conheça nossos tipos de assinaturas</h3>
           </div>
 
         </div>
-
       </div>
 
     </section>
 
-    <section class="bricktops-notas-sensoriais">
-      <div class="container">
+    <section class="bricktops-icones">
 
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Solicite um Orçamento sem Compromisso!</h3>
-            <p class="cta-text"> Preencha nosso formulário e solicite um orçamento para que um de nossos vendedores possa atender você!</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?php get_permalink(); ?>/redetex/contato">Solicitar Orçamento!</a>
-          </div>
+      <div class="container">
+        <div class="col-md-12 text-center principais-escolhas">
+          <h4>Selecione seu café por notas sensoriais</h4>
         </div>
 
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/icones/fruity.icon.png">
+            <h4 class="bricktops-h4">Frutado</h4>
+          </div>
+
+          <div class="col-md-3 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/icones/floral.icon.png">
+            <h4 class="bricktops-h4">Floral</h4>
+          </div>
+
+          <div class="col-md-3 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/icones/chocolate.icon.png">
+            <h4 class="bricktops-h4">Chocolate</h4>
+          </div>
+          
+          <div class="col-md-3 text-center">
+            <img src="<?php bloginfo('template_url'); ?>/dist/imagens/icones/nutty.icon.png">
+            <h4 class="bricktops-h4">Nuts</h4>
+          </div>
+        </div>
       </div>
+
     </section>
 
     <section class="bricktops-guia-metodos">
-      <div class="container">
 
+      <div class="container-fluid" style="width: 95% !important; padding-top: 3%; padding-bottom: 3%">
         <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Solicite um Orçamento sem Compromisso!</h3>
-            <p class="cta-text"> Preencha nosso formulário e solicite um orçamento para que um de nossos vendedores possa atender você!</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?php get_permalink(); ?>/redetex/contato">Solicitar Orçamento!</a>
+          <div class="text-center">
+            <div class="pull-left" style="width: 30%; height: 100%; background-color: #fff">
+              <div style="padding-top: 18em; padding-left: 1em; padding-right: 1em">
+                <h3>HOME BREW GUIDES</h3>
+                <h6>Brewing at home? These are our favourite ways to make the perfect cup of specialty coffee.</h6>
+                <br>
+                <button class="btn btn-danger">Ler Mais</button>
+              </div>
+            </div>
+            <div class="pull-right" style="width: 70%">
+              <img class="bricktops-principais-escolhas-img img-teste" src="<?php bloginfo('template_url'); ?>/dist/imagens/guia-metodos/GUIA-DE-METODOS-(AEROPRESS).png">
+            </div>
           </div>
         </div>
-
       </div>
+
+      <div class="container-fluid" style="width: 95% !important; padding-top: 3%; padding-bottom: 3%">
+        <div class="row">
+          <div class="text-center">
+            <div class="pull-left" style="width: 70%">
+              <img class="bricktops-principais-escolhas-img img-teste" src="<?php bloginfo('template_url'); ?>/dist/imagens/guia-metodos/GUIA-DE-METODOS-(ARAME).png">
+            </div>
+            <div class="pull-right" style="width: 30%; height: 100%; background-color: #fff">
+              <div style="padding-top: 18em; padding-left: 1em; padding-right: 1em">
+                <h3>HOME BREW GUIDES</h3>
+                <h6>Brewing at home? These are our favourite ways to make the perfect cup of specialty coffee.</h6>
+                <br>
+                <button class="btn btn-danger">Ler Mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
+
   </main>
 
 <?php get_footer(); ?>

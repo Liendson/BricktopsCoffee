@@ -1,9 +1,5 @@
 @import url('dist/lib/bootstrap/css/bootstrap.css');
 
-img {
-  width: 100%;
-}
-
 .pm-10 {
   padding-left: 10px !important;
   padding-right: 10px !important;
@@ -14,12 +10,17 @@ h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0 !important;
 }
 
+.bricktops-footer {
+  background-color: coral;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 .bricktops-slider {
   
 }
 
 .bricktops-icones {
-  padding-top: 3%;
   padding-bottom: 3%;
 }
 
@@ -29,6 +30,8 @@ h4, .h4, h5, .h5, h6, .h6 {
 
 .bricktops-cafes-especiais {
   background-color: #e2e4e5;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .bricktops-notas-sensoriais {
@@ -36,7 +39,7 @@ h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .bricktops-guia-metodos {
-
+  background-color: #e2e4e5;
 }
 
 .bricktops-barra-superior {
@@ -53,7 +56,7 @@ h4, .h4, h5, .h5, h6, .h6 {
 .bricktops-logo {
   padding: 0;
   margin: 1% 0;
-  max-height: 65px;
+  max-height: 40px;
 }
 
 .bricktops-h4 {
@@ -148,3 +151,207 @@ div.principais-escolhas {
 .box .card .face.face2:hover {
   background: rgb(226, 147, 118);
 }
+
+.img-teste {
+  height: 643px;
+  width: 900px;
+}
+
+.menu {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.menu ol {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.menu > ol {
+  max-width: 1000px;
+  padding: 0 18rem;
+  display: flex;
+}
+
+.menu > ol > .menu-item {
+  flex: 1;
+  padding: 0.75rem 0;
+}
+
+.menu > ol > .menu-item:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  bottom: 5px;
+  left: calc(50% - 2px);
+  background: #fff;
+  will-change: transform;
+  transform: scale(0);
+  transition: transform 0.2s ease;
+}
+
+.menu > ol > .menu-item:hover:after {
+  transform: scale(1);
+}
+
+.menu-item {
+  position: relative;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.menu-item.border-top {
+  border-top: 1px solid #000;
+}
+
+.menu-item a {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  color: #000;
+}
+
+.sub-menu .menu-item {
+  padding: 0.75rem 0;
+  background: #fff;
+  opacity: 0;
+  transform-origin: bottom;
+  animation: enter 0.2s ease forwards;
+}
+
+.sub-menu .menu-item:hover a {
+  color: coral;
+}
+
+.sub-menu .menu-item a {
+  padding: 0 0.75rem;
+}
+
+@media screen and (max-width: 600px) {
+  .sub-menu .menu-item {
+    background: #fff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    position: relative;
+  }
+  .menu:after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 2px);
+    right: 1rem;
+    width: 30px;
+    height: 4px;
+    background: #FFF;
+    box-shadow: 0 10px #FFF, 0 -10px #FFF;
+  }
+  .menu > ol {
+    display: none;
+    background: #fff;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    animation: fade 0.1s ease-out;
+  }
+  .menu > ol > .menu-item {
+    flex: 0;
+    opacity: 0;
+    animation: enter 0.3s ease-out forwards;
+  }
+  .menu > ol > .menu-item:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .menu > ol > .menu-item:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .menu > ol > .menu-item:nth-child(3) {
+    animation-delay: 0.1s;
+  }
+  .menu > ol > .menu-item:nth-child(4) {
+    animation-delay: 0.1s;
+  }
+  .menu > ol > .menu-item:nth-child(5) {
+    animation-delay: 0.1s;
+  }
+  .menu > ol > .menu-item + .menu-item {
+    margin-top: 0.75rem;
+  }
+  .menu > ol > .menu-item:after {
+    left: auto;
+    right: 1rem;
+    bottom: calc(50% - 2px);
+  }
+  .menu > ol > .menu-item:hover {
+    z-index: 1;
+  }
+  .menu:hover > ol {
+    display: flex;
+  }
+  .menu:hover:after {
+    box-shadow: none;
+  }
+}
+
+.sub-menu {
+  position: absolute;
+  width: 130%;
+  top: 100%;
+  left: 0;
+  display: none;
+  z-index: 1;
+}
+.menu-item:hover > .sub-menu {
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  .sub-menu {
+    width: 100vw;
+    left: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+html, body {
+  font-size: 16px;
+  font-family: "Fira Mono", monospace;
+  margin: 0;
+  background: #2A363B;
+}
+
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: scaleY(0.98) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

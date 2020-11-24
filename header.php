@@ -38,18 +38,64 @@
 		</div>
 
 		<header class="bricktops-header">
-			<div class="container">
-				<div class="logo text-center">
-					<h1 class="text-light">
-						<a href="<?php bloginfo('url') ?>">
-							<img class="bricktops-logo" src="<?php bloginfo('template_url'); ?>/dist/imagens/logo-bricktops.png">
-						</a>
-					</h1>
-				</div>
-
-				<nav class="main-nav float-right d-none d-lg-block">
-					<?php adicionarMenu('dropdown') ?>
-				</nav>
-
+			<div class="logo text-center">
+				<h1 class="text-light">
+					<a href="<?php bloginfo('url') ?>">
+						<img class="bricktops-logo" src="<?php bloginfo('template_url'); ?>/dist/imagens/logo-bricktops.png">
+					</a>
+				</h1>
 			</div>
+
+			<nav class="menu">
+				<ol>
+					<li class="menu-item">
+						<a href="#0">CAFÉS</a>
+						<ol class="sub-menu">
+							<li class="menu-item border-top"><a href="#0">Big Widgets</a></li>
+							<li class="menu-item"><a href="#0">Bigger Widgets</a></li>
+							<li class="menu-item"><a href="#0">Huge Widgets</a></li>
+						</ol>
+					</li>
+					<li class="menu-item">
+						<a href="#0">ASSINATURAS</a>
+						<ol class="sub-menu">
+							<li class="menu-item border-top"><a href="#0">Big Widgets</a></li>
+							<li class="menu-item"><a href="#0">Bigger Widgets</a></li>
+							<li class="menu-item"><a href="#0">Huge Widgets</a></li>
+						</ol>
+					</li>
+					<li class="menu-item">
+						<a href="#0">SOUVENIRS</a>
+						<ol class="sub-menu">
+							<li class="menu-item border-top"><a href="#0">Big Widgets</a></li>
+							<li class="menu-item"><a href="#0">Bigger Widgets</a></li>
+							<li class="menu-item"><a href="#0">Huge Widgets</a></li>
+						</ol>
+					</li>
+					<li class="menu-item">
+						<a href="#0">DESCUBRA</a>
+						<ol class="sub-menu">
+							<li class="menu-item border-top"><a href="#0">Shishkabobs</a></li>
+							<li class="menu-item"><a href="#0">BBQ kabobs</a></li>
+							<li class="menu-item"><a href="#0">Summer kabobs</a></li>
+						</ol>
+					</li>
+					<li class="menu-item">
+						<a href="#0">ATACADO</a>
+						<ol class="sub-menu">
+							<li class="menu-item border-top"><a href="#0">Big Widgets</a></li>
+							<li class="menu-item"><a href="#0">Bigger Widgets</a></li>
+							<li class="menu-item"><a href="#0">Huge Widgets</a></li>
+						</ol>
+					</li>
+					<li class="menu-item">
+						<a href="#0">LOCALIZAÇÕES</a>
+						<ol class="sub-menu">
+							<li class="menu-item border-top"><a href="#0">Big Widgets</a></li>
+							<li class="menu-item"><a href="#0">Bigger Widgets</a></li>
+							<li class="menu-item"><a href="#0">Huge Widgets</a></li>
+						</ol>
+					</li>
+				</ol>
+			</nav>
 		</header>

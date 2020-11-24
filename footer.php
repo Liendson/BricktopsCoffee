@@ -1,33 +1,62 @@
-    <footer id="footer" class="bricktops-header">
+    <footer class="bricktops-footer">
       <div class="container">
         <div class="row">
 
-          <div class="col-md-offset-4 col-md-2 text-center">
+          <div class="col-md-2 text-left">
+            <h4>SIGA-NOS</h4>
             <div class="footer-links">
-              <h4>Endereço</h4>
-              <p>Av. Maria Rosa, 851 <br>
-                Manaíra, João Pessoa - PB  <br>
-                CEP: 58038-460
-              </p>
+              <nav class="main-nav float-right d-none d-lg-block">
+                <?php adicionarMenu('dropdown') ?>
+              </nav>
             </div>
           </div>
 
-          <div class="col-md-2 text-center">
+          <div class="col-md-2 text-left">
+            <h4>COMPRE</h4>
             <div class="footer-links">
-              <h4>Contato</h4>
-              <p>
-                (83) 9-9905-0808 <span class="whatsapp"><i class="fa fa-whatsapp"></i></span><br>
-                (83) 3244-4441 <br>
-                redetex@yahoo.com.br
-              </p>
+              <nav class="main-nav float-right d-none d-lg-block">
+                <?php adicionarMenu('dropdown') ?>
+              </nav>
+            </div>
+          </div>
+
+          <div class="col-md-2 text-left">
+            <h4>DESCUBRA</h4>
+            <div class="footer-links">
+              <nav class="main-nav float-right d-none d-lg-block">
+                <?php adicionarMenu('dropdown') ?>
+              </nav>
+            </div>
+          </div>
+
+          <div class="col-md-2 text-left">
+            <h4>ATACADO</h4>
+            <div class="footer-links">
+              <nav class="main-nav float-right d-none d-lg-block">
+                <?php adicionarMenu('dropdown') ?>
+              </nav>
+            </div>
+          </div>
+
+          <div class="col-md-2 text-left">
+            <h4>SUPORTE</h4>
+            <div class="footer-links">
+              <nav class="main-nav float-right d-none d-lg-block">
+                <?php adicionarMenu('dropdown') ?>
+              </nav>
+            </div>
+          </div>
+
+          <div class="col-md-2 text-left">
+            <h4>VISITE</h4>
+            <div class="footer-links">
+              <nav class="main-nav float-right d-none d-lg-block">
+                <?php adicionarMenu('dropdown') ?>
+              </nav>
             </div>
           </div>
         </div>
         
-        <div class="credits">
-          Desenvolvido por <a>Liendson Douglas</a>
-        </div>
-
       </div>
     </footer>
 
